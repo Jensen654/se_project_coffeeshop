@@ -1,0 +1,123 @@
+.header {
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+  padding-top: 30px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 40px;
+  position: relative;
+  box-sizing: border-box;
+  background-image: url("../images/background_header.svg");
+  background-color: #fff;
+  background-size: cover;
+}
+
+.header__span-accent {
+  display: block;
+  width: 100%;
+  color: #2f80ed;
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 72px;
+}
+
+.nav {
+  display: flex;
+  justify-content: end;
+  font-family: "Inter", arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.logo {
+  width: 125px;
+  height: 142px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.nav__links {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+  margin-top: 8px;
+  column-gap: 20px;
+  align-items: center;
+}
+
+.nav__link {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav__link:hover {
+  color: #2f80ed;
+}
+
+.header__title {
+  font-family: "Inter", arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 72px;
+  margin: 202px 0 0;
+  max-width: 729px;
+}
+
+.header__description {
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 28px 0 0;
+  max-width: 683px;
+}
+
+.header__image {
+  position: absolute;
+  width: 646px;
+  height: 568px;
+  top: 124px;
+  right: 5px;
+}
+
+.header__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: absolute;
+  left: 0;
+  bottom: 40px;
+  width: 100%;
+  box-sizing: border-box;
+  color: #838383;
+  padding: 40px 80px 0;
+  font-family: "Inter", arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.header__link {
+  color: #2f80ed;
+  text-decoration: none;
+}
+
+.header__link:hover {
+  color: #1f69c9;
+}
+
+.header__paragraph {
+  margin: 0;
+}
