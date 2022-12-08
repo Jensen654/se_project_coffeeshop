@@ -35,7 +35,7 @@
   gap: 40px;
 }
 
-.recipes__video-caption_section {
+.recipes__video-captions {
   display: flex;
   justify-content: space-between;
 }
