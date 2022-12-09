@@ -43,7 +43,7 @@
   left: 30px;
 }
 
-.header__nav_links {
+.header__nav-links {
   display: flex;
   list-style: none;
   padding-left: 0;
@@ -52,14 +52,14 @@
   align-items: center;
 }
 
-.header__nav_link {
+.header__nav-link {
   color: #000000;
   text-decoration: none;
   font-weight: 500;
   transition: color 1s ease;
 }
 
-.header__nav_link:hover {
+.header__nav-link:hover {
   color: #2f80ed;
 }
 

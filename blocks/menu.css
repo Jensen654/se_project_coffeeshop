@@ -51,7 +51,7 @@
   margin: 0;
 }
 
-.menu__card_title {
+.menu__card-title {
   padding-bottom: 32px;
   font-family: "Inter", arial, sans-serif;
   font-style: normal;
@@ -61,7 +61,7 @@
   margin: 0;
 }
 
-.menu__card_list-divider {
+.menu__card_type_divider {
   background-color: white;
   height: 1px;
   display: block;
@@ -69,7 +69,7 @@
   align-self: flex-end;
 }
 
-.menu__card_list-item {
+.menu__card_type_item {
   display: flex;
   margin: 0;
   padding-bottom: 16px;
@@ -80,6 +80,6 @@
   line-height: 20px;
 }
 
-.menu__card_list-item:last-of-type {
+.menu__card_type_item:last-of-type {
   padding: 0;
 }
