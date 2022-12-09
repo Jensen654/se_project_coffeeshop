@@ -35,6 +35,7 @@
   margin: 0 auto;
   justify-content: center;
   gap: 40px;
+  flex-wrap: wrap;
 }
 
 .recipes__video-captions {

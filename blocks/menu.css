@@ -61,7 +61,7 @@
   margin: 0;
 }
 
-.menu__card_type_divider {
+.menu__card-divider {
   background-color: white;
   height: 1px;
   display: block;
@@ -69,7 +69,7 @@
   align-self: flex-end;
 }
 
-.menu__card_type_item {
+.menu__card-item {
   display: flex;
   margin: 0;
   padding-bottom: 16px;
@@ -80,6 +80,6 @@
   line-height: 20px;
 }
 
-.menu__card_type_item:last-of-type {
+.menu__card-item:last-of-type {
   padding: 0;
 }
