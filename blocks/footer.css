@@ -1,7 +1,7 @@
 .footer {
   box-sizing: border-box;
   color: #fff;
-  padding: 60px 100px 60px;
+  padding: 60px 100px 60px 80px;
   background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
 }
 
@@ -67,7 +67,7 @@
   margin: 0;
   font-family: "Inter", arial, sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: normal;
   font-size: 16px;
   line-height: 20px;
 }
@@ -75,9 +75,14 @@
 .footer__social-link {
   font-family: "Inter", arial, sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: normal;
   font-size: 16px;
   line-height: 20px;
   text-decoration: none;
   color: #fff;
+  transition: color 1s ease;
+}
+
+.footer__social-link:hover {
+  color: #2f80ed;
 }

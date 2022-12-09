@@ -20,24 +20,24 @@
   <body>
     <div class="page">
       <header class="header">
-        <nav class="nav">
+        <nav class="header__nav">
           <img
             src="./images/logo_coffee_shop.svg"
             alt="Coffee Shop Logo"
-            class="logo"
+            class="header__logo"
           />
-          <ul class="nav__links">
+          <ul class="header__nav_links">
             <li>
-              <a class="nav__link" href="#menu">Menu</a>
+              <a class="header__nav_link" href="#menu">Menu</a>
             </li>
             <li>
-              <a class="nav__link" href="#recipes">Recipes</a>
+              <a class="header__nav_link" href="#recipes">Recipes</a>
             </li>
             <li>
-              <a class="nav__link" href="#membership">Book a table</a>
+              <a class="header__nav_link" href="#reservation">Book a table</a>
             </li>
             <li>
-              <a class="nav__link" href="#footer">Contacts</a>
+              <a class="header__nav_link" href="#footer">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -66,75 +66,80 @@
         </div>
       </header>
       <main class="main-content">
-        <section class="menu">
+        <section class="menu" id="menu">
           <h2 class="menu__title">Menu</h2>
           <p class="menu__subtitle">
             We brew coffee from locally roasted, Fairtrade certified beans and
             use biodegradable cups. All teas from our collection are $2/cup.
           </p>
           <div class="menu__cards">
-            <div class="card">
-              <p class="card__title">Filter</p>
-              <p class="card__list-item">
-                Regular (12 oz)<span class="card__list-divider"></span>$1
-              </p>
+            <ul class="menu__card">
+              <li><h3 class="menu__card_title">Filter</h3></li>
+              <li class="menu__card_list-item">
+                Regular (12 oz)<span class="menu__card_list-divider"></span>$1
+              </li>
 
-              <p class="card__list-item">
-                Large (16 oz)<span class="card__list-divider"></span>$1.25
-              </p>
-              <p class="card__list-item">
-                XL (20 oz)<span class="card__list-divider"></span>$1.5
-              </p>
-              <p class="card__list-item">
-                Party-size (24 oz, decaf)<span class="card__list-divider"></span
+              <li class="menu__card_list-item">
+                Large (16 oz)<span class="menu__card_list-divider"></span>$1.25
+              </li>
+              <li class="menu__card_list-item">
+                XL (20 oz)<span class="menu__card_list-divider"></span>$1.5
+              </li>
+              <li class="menu__card_list-item">
+                Party-size (24 oz, decaf)<span
+                  class="menu__card_list-divider"
+                ></span
                 >$1.75
-              </p>
-              <p class="card__list-item">
-                Iced Coffee (16 oz)<span class="card__list-divider"></span>$1.25
-              </p>
-            </div>
-            <div class="card">
-              <p class="card__title">Espresso</p>
-              <p class="card__list-item">
-                Macchiato<span class="card__list-divider"></span>$2.25
-              </p>
-              <p class="card__list-item">
-                Cortado<span class="card__list-divider"></span>$2.5
-              </p>
-              <p class="card__list-item">
-                Mocha<span class="card__list-divider"></span>$3
-              </p>
-              <p class="card__list-item">
+              </li>
+              <li class="menu__card_list-item">
+                Iced Coffee (16 oz)<span class="menu__card_list-divider"></span
+                >$1.25
+              </li>
+            </ul>
+            <ul class="menu__card">
+              <li><h3 class="menu__card_title">Espresso</h3></li>
+              <li class="menu__card_list-item">
+                Macchiato<span class="menu__card_list-divider"></span>$2.25
+              </li>
+              <li class="menu__card_list-item">
+                Cortado<span class="menu__card_list-divider"></span>$2.5
+              </li>
+              <li class="menu__card_list-item">
+                Mocha<span class="menu__card_list-divider"></span>$3
+              </li>
+              <li class="menu__card_list-item">
                 Sunrise in the Bay Area (decaf)<span
-                  class="card__list-divider"
+                  class="menu__card_list-divider"
                 ></span
                 >$10
-              </p>
-            </div>
-            <div class="card">
-              <p class="card__title">Baked Goods</p>
-              <p class="card__list-item">
-                Almond Croissant<span class="card__list-divider"></span>$2
-              </p>
-              <p class="card__list-item">
-                Banana Bread<span class="card__list-divider"></span>$1.75
-              </p>
-              <p class="card__list-item">
-                Key Lime Pie<span class="card__list-divider"></span>$3
-              </p>
-              <p class="card__list-item">
-                Blue Velvet Cake<span class="card__list-divider"></span>$3.75
-              </p>
-              <p class="card__list-item">
-                Web Cookie<span class="card__list-divider"></span>$2
-              </p>
-              <p class="card__list-item">
-                Fresh Bug’uette<span class="card__list-divider"></span>$0.25
-              </p>
-            </div>
+              </li>
+            </ul>
+            <ul class="menu__card">
+              <li><h3 class="menu__card_title">Baked Goods</h3></li>
+              <li class="menu__card_list-item">
+                Almond Croissant<span class="menu__card_list-divider"></span>$2
+              </li>
+              <li class="menu__card_list-item">
+                Banana Bread<span class="menu__card_list-divider"></span>$1.75
+              </li>
+              <li class="menu__card_list-item">
+                Key Lime Pie<span class="menu__card_list-divider"></span>$3
+              </li>
+              <li class="menu__card_list-item">
+                Blue Velvet Cake<span class="menu__card_list-divider"></span
+                >$3.75
+              </li>
+              <li class="menu__card_list-item">
+                Web Cookie<span class="menu__card_list-divider"></span>$2
+              </li>
+              <li class="menu__card_list-item">
+                Fresh Bug’uette<span class="menu__card_list-divider"></span
+                >$0.25
+              </li>
+            </ul>
           </div>
         </section>
-        <section class="recipes">
+        <section class="recipes" id="recipes">
           <h2 class="recipes__title">Recipes</h2>
           <p class="recipes__subtitle">
             Check out some recipes we've collected for your home-brewing
@@ -142,24 +147,32 @@
           </p>
           <div class="recipes__videos">
             <div>
-              <video
-                class="recipes__video"
-                poster="https://www.youtube.com/watch?v=j6VlT_jUVPc"
-                src="https://www.youtube.com/watch?v=j6VlT_jUVPc"
-                style="border: none"
-              ></video>
+              <iframe
+                class="recipes__iframe"
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/j6VlT_jUVPc"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
               <div class="recipes__video-captions">
                 <p class="recipes__video-caption">Aeropress Technique</p>
                 <p class="recipes__video-caption">~5 min</p>
               </div>
             </div>
             <div>
-              <video
-                class="recipes__video"
-                poster="https://www.youtube.com/watch?v=st571DYYTR8"
-                src="https://www.youtube.com/watch?v=st571DYYTR8"
-                style="border: none"
-              ></video>
+              <iframe
+                class="recipes__iframe"
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/st571DYYTR8"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
               <div class="recipes__video-captions">
                 <p class="recipes__video-caption">French Press Technique</p>
                 <p class="recipes__video-caption">~3 min</p>
@@ -167,52 +180,60 @@
             </div>
           </div>
         </section>
-        <section class="reservation">
+        <section class="reservation" id="reservation">
           <h2 class="reservation__title">Book a table</h2>
-          <div class="reservation__form form">
-            <fieldset class="form__fieldset">
-              <div class="form__inputs">
-                <label class="form__label"
-                  >Name*
-                  <input
-                    class="form__input"
-                    type="text"
-                    required
-                    placeholder="Name surname"
-                  />
-                </label>
-                <label class="form__label"
-                  >Number of guests*
-                  <input
-                    class="form__input"
-                    type="number"
-                    min="1"
-                    max="8"
-                    required
-                    placeholder="1-8"
-                  />
-                </label>
-                <label class="form__label"
-                  >Date and time*
-                  <input class="form__input" type="datetime-local" required />
-                </label>
-                <label class="form__label"
-                  >Your email*
-                  <input
-                    class="form__input"
-                    type="email"
-                    required
-                    placeholder="email@email.com"
-                  />
-                </label>
-                <button class="form__button" type="submit">Book a table</button>
-                <label class="form__label">
-                  <input class="form__checkbox" type="checkbox" required />
-                  I agree with the terms of use
-                </label>
-              </div>
+          <form class="reservation__form form">
+            <fieldset class="reservation__form_fieldset">
+              <label class="reservation__form_label"
+                >Name*
+                <input
+                  class="reservation__form_input"
+                  type="text"
+                  required
+                  placeholder="Name surname"
+                />
+              </label>
+              <label class="reservation__form_label"
+                >Number of guests*
+                <input
+                  class="reservation__form_input"
+                  type="number"
+                  min="1"
+                  max="8"
+                  required
+                  placeholder="1-8"
+                />
+              </label>
+              <label class="reservation__form_label"
+                >Date and time*
+                <input
+                  class="reservation__form_input"
+                  type="datetime-local"
+                  required
+                />
+              </label>
+              <label class="reservation__form_label"
+                >Your email*
+                <input
+                  class="reservation__form_input"
+                  type="email"
+                  required
+                  placeholder="email@email.com"
+                />
+              </label>
+              <button class="reservation__form_button" type="submit">
+                Book a table
+              </button>
+              <label class="reservation__form_label">
+                <input
+                  class="reservation__form_checkbox"
+                  type="checkbox"
+                  required
+                />
+                I agree with the terms of use
+              </label>
             </fieldset>
-          </div>
+          </form>
         </section>
         <section class="about" id="about">
           <h2 class="about__title">About the coffee shop</h2>
@@ -235,7 +256,7 @@
         </section>
       </main>
       <footer class="footer">
-        <section class="footer__content" id="footer">
+        <div class="footer__content" id="footer">
           <div class="footer__column">
             <img
               class="footer__logo"
@@ -266,7 +287,7 @@
               </li>
             </ul>
           </div>
-        </section>
+        </div>
         <p class="footer__copyright">&#169; 2022 Jensen Bean</p>
       </footer>
     </div>
