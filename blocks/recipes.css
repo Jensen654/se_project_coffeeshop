@@ -43,12 +43,6 @@
   justify-content: space-between;
 }
 
-.recipes__video {
-  padding-bottom: 24px;
-  width: 480px;
-  height: 273px;
-}
-
 .recipes__video-caption {
   margin: 0;
   font-family: "Inter", arial, sans-serif;
@@ -60,4 +54,12 @@
 
 .recipes__iframe {
   border: none;
+  padding-bottom: 24px;
+  width: 480px;
+  height: 273px;
+  transition: opacity 1s ease;
+}
+
+.recipes__iframe:hover {
+  opacity: 70%;
 }
