@@ -43,3 +43,8 @@
 .card__item:last-of-type {
   padding: 0;
 }
+
+.card__list {
+  padding: 0;
+  margin: 0;
+}

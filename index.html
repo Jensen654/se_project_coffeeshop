@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- I have fixed all the issues I have been presented with, so I hope everything works -->
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -24,7 +25,7 @@
           <img
             src="./images/logo_coffee_shop.svg"
             alt="Coffee Shop Logo"
-            class="nav__logo"
+            class="logo"
           />
           <ul class="nav__links">
             <li>
@@ -73,65 +74,71 @@
             use biodegradable cups. All teas from our collection are $2/cup.
           </p>
           <div class="menu__cards">
-            <ul class="card">
-              <li><h3 class="card__title">Filter</h3></li>
-              <li class="card__item">
-                Regular (12 oz)<span class="card__divider"></span>$1
-              </li>
+            <div class="card">
+              <h3 class="card__title">Filter</h3>
+              <ul class="card__list">
+                <li class="card__item">
+                  Regular (12 oz)<span class="card__divider"></span>$1
+                </li>
 
-              <li class="card__item">
-                Large (16 oz)<span class="card__divider"></span>$1.25
-              </li>
-              <li class="card__item">
-                XL (20 oz)<span class="card__divider"></span>$1.5
-              </li>
-              <li class="card__item">
-                Party-size (24 oz, decaf)<span class="card__divider"></span
-                >$1.75
-              </li>
-              <li class="card__item">
-                Iced Coffee (16 oz)<span class="card__divider"></span>$1.25
-              </li>
-            </ul>
-            <ul class="card">
-              <li><h3 class="card__title">Espresso</h3></li>
-              <li class="card__item">
-                Macchiato<span class="card__divider"></span>$2.25
-              </li>
-              <li class="card__item">
-                Cortado<span class="card__divider"></span>$2.5
-              </li>
-              <li class="card__item">
-                Mocha<span class="card__divider"></span>$3
-              </li>
-              <li class="card__item">
-                Sunrise in the Bay Area (decaf)<span
-                  class="card__divider"
-                ></span
-                >$10
-              </li>
-            </ul>
-            <ul class="card">
-              <li><h3 class="card__title">Baked Goods</h3></li>
-              <li class="card__item">
-                Almond Croissant<span class="card__divider"></span>$2
-              </li>
-              <li class="card__item">
-                Banana Bread<span class="card__divider"></span>$1.75
-              </li>
-              <li class="card__item">
-                Key Lime Pie<span class="card__divider"></span>$3
-              </li>
-              <li class="card__item">
-                Blue Velvet Cake<span class="card__divider"></span>$3.75
-              </li>
-              <li class="card__item">
-                Web Cookie<span class="card__divider"></span>$2
-              </li>
-              <li class="card__item">
-                Fresh Bug’uette<span class="card__divider"></span>$0.25
-              </li>
-            </ul>
+                <li class="card__item">
+                  Large (16 oz)<span class="card__divider"></span>$1.25
+                </li>
+                <li class="card__item">
+                  XL (20 oz)<span class="card__divider"></span>$1.5
+                </li>
+                <li class="card__item">
+                  Party-size (24 oz, decaf)<span class="card__divider"></span
+                  >$1.75
+                </li>
+                <li class="card__item">
+                  Iced Coffee (16 oz)<span class="card__divider"></span>$1.25
+                </li>
+              </ul>
+            </div>
+            <div class="card">
+              <h3 class="card__title">Espresso</h3>
+              <ul class="card__list">
+                <li class="card__item">
+                  Macchiato<span class="card__divider"></span>$2.25
+                </li>
+                <li class="card__item">
+                  Cortado<span class="card__divider"></span>$2.5
+                </li>
+                <li class="card__item">
+                  Mocha<span class="card__divider"></span>$3
+                </li>
+                <li class="card__item">
+                  Sunrise in the Bay Area (decaf)<span
+                    class="card__divider"
+                  ></span
+                  >$10
+                </li>
+              </ul>
+            </div>
+            <div class="card">
+              <h3 class="card__title">Baked Goods</h3>
+              <ul class="card__list">
+                <li class="card__item">
+                  Almond Croissant<span class="card__divider"></span>$2
+                </li>
+                <li class="card__item">
+                  Banana Bread<span class="card__divider"></span>$1.75
+                </li>
+                <li class="card__item">
+                  Key Lime Pie<span class="card__divider"></span>$3
+                </li>
+                <li class="card__item">
+                  Blue Velvet Cake<span class="card__divider"></span>$3.75
+                </li>
+                <li class="card__item">
+                  Web Cookie<span class="card__divider"></span>$2
+                </li>
+                <li class="card__item">
+                  Fresh Bug’uette<span class="card__divider"></span>$0.25
+                </li>
+              </ul>
+            </div>
           </div>
         </section>
         <section class="recipes" id="recipes">
@@ -207,7 +214,7 @@
                 />
               </label>
               <button class="form__button" type="submit">Book a table</button>
-              <label class="form__label">
+              <label class="form__label form__label_type_checkbox">
                 <input class="form__checkbox" type="checkbox" required />
                 I agree with the terms of use
               </label>
